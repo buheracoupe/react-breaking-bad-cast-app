@@ -1,4 +1,34 @@
-.App{
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Shadows+Into+Light&display=swap');
+*,
+*::after,
+*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+html, 
+body{
+  font-family: 'Quicksand', sans-serif;
+  height: 100vh;
   background-image: url(./Assets/img/bg.jpg);
   background-size: contain;
+}
+.App{
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 3rem;
+  padding: 2rem;
+
+}
+h1{
+  font-family: "Shadows Into Light", cursive;
+}
+p{
+text-shadow: 5px 3px 10px green;
+margin: 2rem;
 }
